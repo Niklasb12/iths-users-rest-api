@@ -40,27 +40,25 @@ app.post('/users', async(req, res) => {
     res.json({ "result": result })
 })
 
-//     app.patch('/users/:id', (req, res) => {
-//         const newUsers = {
-//             name: {
-//                 title: req.body.title,
-//                 first: req.body.first,
-//                 last: req.body.last,
-//             },
-//             email: req.body.email,
-//             nat: req.body.nat
-//         }
+app.patch('/users/:id', async(req, res) => {
+    const newUsers = {
+        name: {
+            title: req.body.title,
+            first: req.body.first,
+            last: req.body.last,
+        },
+        email: req.body.email,
+        nat: req.body.nat
+    }
 
-//         users.update({ _id: req.params.id }, { $set: { "name.title": req.body.title, "name.first": req.body.first, "name.last": req.body.last, email: req.body.email, nat: req.body.nat } }, function(err, docs) {
+    const result = await users.update({ _id: req.params.id }, { $set: { "name.title": req.body.title, "name.first": req.body.first, "name.last": req.body.last, email: req.body.email, nat: req.body.nat } })
+    res.json({ "result": result })
+})
 
-//         })
-//     })
-
-//     app.delete('/users/:id', (req, res) => {
-//         users.remove({ _id: req.params.id }, function(err, docs) {
-
-//         })
-//     })
+app.delete('/users/:id', async(req, res) => {
+    const result = await users.remove({ _id: req.params.id })
+    res.json({ "result": result })
+})
 
 
 function startServer() {

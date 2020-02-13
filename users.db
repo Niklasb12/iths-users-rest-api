@@ -24,7 +24,6 @@
 {"name":{"title":"Mademoiselle","first":"Christel","last":"Legrand"},"email":"Christel.Legrand@example.com","nat":"CH","_id":"FMAfiDFmqfJV2OaO"}
 {"name":{"title":"Mr","first":"Mathias","last":"Larsen"},"email":"Mathias.Larsen@example.com","nat":"DK","_id":"FenDV3gHZ27rjQxb"}
 {"name":{"title":"Ms","first":"Paula","last":"Patterson"},"email":"Paula.Patterson@example.com","nat":"AU","_id":"GPfD6llnZTkldR6y"}
-{"name":{"title":"Dr","first":"Jockii","last":"Boy"},"email":"sexxyfan@gmail.com","nat":"DK","_id":"H7ttOAPrIaMOb7fK"}
 {"name":{"title":"Ms","first":"Laura","last":"Jensen"},"email":"Laura.Jensen@example.com","nat":"DK","_id":"HApiUgevwyhLpIjs"}
 {"name":{"title":"Monsieur","first":"Osman","last":"Lecomte"},"email":"Osman.Lecomte@example.com","nat":"CH","_id":"HicaeyhTRG4b7CXe"}
 {"name":{"title":"Mrs","first":"Mareike","last":"Bönisch"},"email":"Mareike.Bonisch@example.com","nat":"DE","_id":"JSXBcqep5FoDnHAe"}
@@ -100,3 +99,4 @@
 {"name":{"title":"Mr","first":"Thorbjørn","last":"Mykland"},"email":"Thorbjorn.Mykland@example.com","nat":"NO","_id":"w9zXXoU8GA9LUnfH"}
 {"name":{"title":"Mrs","first":"Lumi","last":"Haataja"},"email":"Lumi.Haataja@example.com","nat":"FI","_id":"wJBDLq1FyWAOxPxy"}
 {"name":{"title":"Mrs","first":"Freya","last":"Edwards"},"email":"Freya.Edwards@example.com","nat":"NZ","_id":"xHz66OpNUIRweY1b"}
+{"$$deleted":true,"_id":"xHz66OpNUIRweY1b"}
